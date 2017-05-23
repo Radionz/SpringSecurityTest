@@ -1,6 +1,6 @@
 logging:
   level:
-    org.springframework.security:
+    org.springframework.security: DEBUG
 
 security:
   sessions: ALWAYS
@@ -14,11 +14,11 @@ spring:
 zuul:
   routes:
     ui:
-      url: http://ui.my-project-2.scv:8080
+      url: http://ui.my-project-2.svc:8080
       sensitive-headers:
     admin:
-      url: http://admin.my-project-2.scv:8080
+      url: http://admin.my-project-2.svc:8080
       sensitive-headers:
     resource:
-      url: http://resource.my-project-2.scv:8080
+      url: http://resource.my-project-2.svc:8080
       sensitive-headers:
