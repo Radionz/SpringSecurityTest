@@ -9,11 +9,11 @@ spring:
 zuul:
   routes:
     ui:
-      url: http://localhost:8081
+      url: http://ui.my-project-2.scv:8080
       sensitive-headers:
     admin:
-      url: http://localhost:8082
+      url: http://admin.my-project-2.scv:8080
       sensitive-headers:
     resource:
-      url: http://localhost:9000
+      url: http://resource.my-project-2.scv:8080
       sensitive-headers:
