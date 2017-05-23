@@ -17,3 +17,7 @@ zuul:
     resource:
       url: http://resource.my-project-2.scv:8080
       sensitive-headers:
+
+spring:
+  redis:
+    host: http://redis.my-project-2.svc:6379
