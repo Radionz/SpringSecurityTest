@@ -7,9 +7,10 @@ security:
 
 spring:
   session:
-    store-type: redis
-  redis:
-      host: http://172.17.0.5:6379
+    store-type: mongo
+  data:
+    mongodb:
+      host: http://mongodb.my-project-2.svc:27017
 
 zuul:
   routes:
