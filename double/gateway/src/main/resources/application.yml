@@ -9,7 +9,7 @@ spring:
   session:
     store-type: redis
   redis:
-      host: http://redis.my-project-2.svc:6379
+      host: http://172.17.0.5:6379
 
 zuul:
   routes:
