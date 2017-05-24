@@ -10,7 +10,7 @@ spring:
     store-type: mongo
   data:
     mongodb:
-      host: http://mongodb.my-project-2.svc:27017
+      host: http://mongodb.my-project-2.svc
 
 zuul:
   routes:
